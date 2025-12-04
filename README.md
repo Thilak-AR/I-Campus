@@ -1,7 +1,8 @@
-🚀 I‑Campus – Next‑Gen Smart Campus Management System
+<b>🚀 I‑Campus – Next‑Gen Smart Campus Management System </b><br>
+
 Overview I‑Campus is a multi‑tenant, AI‑ready, IoT‑enabled campus operating system that automates the complete student lifecycle from admission to placement. It supports multi‑branch institutions with strict role‑based access control and minimal manual intervention. Designed for web, mobile, and desktop frontends, the platform is built to remain relevant for the next 10–20 years.
 
-✨ Key Highlights
+<b>✨ Key Highlights</b><br>
 End‑to‑end automation: Admissions, academics, attendance, exams, fees, hostel, transport, canteen, library, placement, alumni, audit, and more.
 
 Multi‑tenant & multi‑branch: Institutions as tenants, campuses as branches; all data scoped by tenant + campus.
@@ -12,7 +13,7 @@ Hardware integration: RFID at gates, hostel, canteen, buses, library; biometric 
 
 AI & analytics ready: Per‑role dashboards with KPIs, charts, alerts; planned AI assistant for queries like “show my attendance” or “next exam date.”
 
-🏛 Current Backend Stack
+<b>🏛 Current Backend Stack</b><br>
 Language: Python 3.13
 
 Framework: FastAPI
@@ -25,7 +26,7 @@ ORM: SQLAlchemy
 
 Migrations: Alembic (planned)
 
-🔧 Implemented Features
+<b>🔧 Implemented Features</b><br>
 Project structure: Modular backend service with core, db, schemas, api, and services.
 
 Multi‑tenancy base: Tenant, Campus, User, and Role models with scoped data.
@@ -44,7 +45,7 @@ Users: Basic create/list endpoints with role checks.
 
 Health: /health and /db-check.
 
-🧩 Planned Major Features (Roadmap Snapshot)
+<b>🧩 Planned Major Features (Roadmap Snapshot)</b><br>
 Admission Management: End‑to‑end workflow with auto‑generated student IDs, emails, and default credentials.
 
 Advanced Exam System: Online/offline exam schema, question banks, grading, revaluation, blockchain‑backed certificates.
@@ -57,7 +58,7 @@ Dashboards & Analytics: Role‑specific KPIs, MIS reports, audit logs, AI insigh
 
 Company Admin / SaaS Onboarding: Tenant registration, verification, auto‑provisioning, platform‑wide monitoring.
 
-🧱 Project Structure
+<b>🧱 Project Structure</b><br>
 Code
 backend/
   app/
@@ -69,7 +70,7 @@ backend/
     services/ (user_service, tenant_service)
 This layered architecture ensures scalability, separation of concerns, and readiness for micro‑modules.
 
-💼 Why This Project Is Interesting
+<b>💼 Why This Project Is Interesting</b><br>
 Realistic multi‑tenant SaaS design with scoped data.
 
 Production‑style FastAPI backend with layered architecture.
@@ -82,7 +83,7 @@ Hardware integration (RFID, biometric, QR).
 
 Long‑term product vision: 24 role modules, ~180 submodules, future AI/IoT/blockchain integrations.
 
-📌 Next Steps
+<b>📌 Next Steps</b><br>
 Complete role‑aware Users API.
 
 Add attendance, timetable, and calendar models.
@@ -93,5 +94,10 @@ Implement logging, metrics, and audit trail middleware.
 
 Deploy to cloud (Azure/AWS) with CI/CD pipelines.
 
-👤 About the Author
-Name: Thilak A R Role: Aspiring DevOps & Software Architect Focus: Python, FastAPI, SQL Server, full‑stack systems for education and automation LinkedIn: linkedin.com/in/thilak-a-r GitHub: github.com/Thilak-AR
+<b>👤 About the Author</b><br>
+Name: Thilak A R <br>
+Role: Aspiring DevOps & Software Architect <br>
+Focus: Python, FastAPI, SQL Server, full‑stack systems for education and automation <br>
+LinkedIn: linkedin.com/in/thilak-a-r <br>
+GitHub: github.com/Thilak-AR <br>
+Email:anchepalyathilakar@gmail.com
